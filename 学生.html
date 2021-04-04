@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://img.myuall.com/univ/badge/p00000436.jpeg" />
+    <title>学生-华中农业大学</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./图标字体/css/all.css">
+    <style>
+        *{
+            box-sizing:border-box ;
+        }
+        .front{
+             background-color: rgb(24, 104, 24);
+             height: 50px;
+             display: flex;
+             justify-content: space-around;
+        }
+        .front .front0,.front1{
+            font-size: 16px;
+            line-height: 50px;
+            text-align: center;
+            display: flex;
+        }
+        .front0 a{
+            display: block;
+            color: white;
+            width: 70px;
+            text-decoration:tomato;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        } 
+        .front1 a{
+            display: block;
+            color: white;
+            width: 100px;
+            text-decoration:tomato;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        } 
+        .front a:hover{
+            background-color: wheat;
+        }
+        .b1{
+            padding-left: 110px;
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .b2{
+            display: flex;
+            justify-content: center;
+        }
+        .b21{
+            padding-top: 4px;
+            width: 1200px;
+            display: flex;
+            text-align: center;
+            border-top: 1px solid #B29873;
+            justify-content:space-evenly;
+        }
+        .b21 a{
+            display: block;
+            color:green;
+            width: 100px;
+            line-height: 40px;
+            text-decoration:tomato;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        .b21 a:hover{
+            color: white;
+            background-color: green;
+        }
+        .front2{
+            height:300px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .img2{
+            width:100%;
+        }
+        .center{
+           width: 100%;
+           display: flex;
+           justify-content: center;
+       }
+       .center1{
+           height: 277px;
+           width: 300px;
+           border-top: 2px solid green;
+           background-color: #F0F0E1;
+       }
+       .center11{
+           line-height: 100px;
+           text-align: center;
+           background-color: #B29873;
+           font-size: 30px;
+           color: white;
+           border-bottom: 1px solid white;
+           margin-top: -130px;
+       }
+       .center12{
+           line-height: 60px;
+           font-size: 18px;
+           background-color:#B29873; 
+           border-bottom: 1px solid white;
+       }
+       .center13{
+           line-height: 60px;
+           font-size: 18px;
+           border-bottom: 1px solid white;
+       }
+       .center1 a{
+           display: block;
+           margin-left: 20px;
+           text-decoration:tomato;
+           color: black;
+       }
+       .center12 a{
+           color: white;
+       }
+       .center1 a:hover{
+           color: green;
+       }
+      .center2{
+           width: 800px;
+           height: 1300px;
+           padding: 10px;
+           margin-left: 20px;
+       }
+       .center2 a{
+            color: black;
+            text-decoration:tomato;
+       }
+       .center2 a:hover{
+           color: green;
+       }
+       .center21{
+           line-height: 80px;
+           font-size: 40px;
+           color: green;
+           border-bottom: 1px solid #DDDDDD;
+       }
+       .center22{
+           margin-top: 20px;
+           margin-left: 10px;
+       }                 
+       .center231{
+           line-height: 40px;
+           background-color:#F5F5F5 ;
+           color: green;
+           border-bottom: 1px solid #DDDDDD;
+       }
+       .center232{
+           display: flex;
+           padding: 10px;
+           flex-flow: row wrap;
+       }
+       .center232 div{
+           width: 250px;
+       }
+       .center232 a{
+           line-height: 40px;
+           color: #B29873;
+       }
+       .footer_front{
+           width: 100%;
+           height:400px;
+           background-color: green;
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+       }
+       .footer_front2{
+           background-color: #F0F0E1;
+           width: 100%;
+           height:300px;
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+       }
+       .footer_front21{
+           
+           display: flex;
+       }
+       .footer_front22{
+           height:150px;
+           width:110px ;
+           font-size: 13px;
+       }
+       .footer_front22 a{
+            color:#585858;
+            text-decoration:tomato;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 13px;
+            line-height: 22px;
+       }
+       .footer_front22 a:hover{
+           color: rgb(78, 142, 184);
+       }
+       .footer_front23 a{
+           display: block;
+            color: black;
+            margin-top: -13px;
+            margin-bottom: 30px;
+            font-size: 15px;
+       }
+       footer{
+           background-color: green;
+           text-align: center;
+           line-height: 40px;
+           color: white;
+       }
+       footer a{
+        text-decoration:tomato;
+        color: white;
+       }
+      
+    </style>
+
+</head>
+<body>
+    
+    <header class="front">
+        <div class="front1">
+            <div></i> <a href="#"><i class="fas fa-envelope"></i>&nbsp电子邮箱</a></div>
+            <div><a href="#"><i class="fa fa-sticky-note"></i>&nbsp校务公开</a></div>
+            <div><a href="#"><i class="fa fa-info-circle"></i>&nbsp信息门户</a></div>
+            <div><a href="#"><i class="fa fa-book"></i>&nbsp图书馆</a></div>
+            <div><a href="#"><i class="fa fa-university"></i>&nbsp博物馆</a></div>
+        </div>
+        <div class="front0">
+            <div><a href="./学生.html">学生</a></div>
+            <div><a href="#">教工</a></div>
+            <div><a href="#">考生</a></div>
+            <div><a href="#">访客</a></div>
+            <div><a href="#"><i class="fa fa-globe"></i>&nbspEN</a></div>
+            <div><a href="#">🔍</a></div>
+        </div>
+    </header>
+    <nav class="b1">
+             <img src="./logo.png">
+    </nav>
+    <div class="b2">
+            <ul class="b21">
+                <li><a href="#">学校新闻</a></li>
+                <li><a href="#">学校概况</a></li>
+                <li><a href="#">院系设置</a></li>
+                <li><a href="#">教育教学</a></li>
+                <li><a href="#">招生就业</a></li>
+                <li><a href="#">师资队伍</a></li>
+                <li><a href="#">人才招聘</a></li>
+                <li><a href="#">学科科研</a></li>
+                <li><a href="#">合作交流</a></li>
+                <li><a href="#">走进华农</a></li>
+            </ul>
+    </div>
+    <div class="front2">
+        <img  class="img2" src="./channeltopimg01.jpg">
+    </div>
+    <div class="center">
+         <div class="center1">
+             <div class="center11">用户通道</div>
+             <div class="center12"><a href="#">学生</a></div>
+             <div class="center13"><a href="#">教工</a></div>
+             <div class="center13"><a href="#">考生</a></div>
+             <div class="center13"><a href="#">校友</a></div>
+             <div class="center13"><a href="#">访客</a></div>
+         </div>
+         <div class="center2">
+            <a href="#">首页</a>·<a href="#">用户通道</a>·<a href="#">学生</a></a>
+            <div class="center21">学生</div>
+            <div class="center22">
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp新生专栏</div>
+                    <div class="center232">
+                        <div><a href="#">校园地图<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">新生自助报到<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">学校历史<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">交通信息<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">校园卡<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp校园文化</div>
+                    <div class="center232">
+                        <div><a href="#">南湖新闻网<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp学习服务（本科生）</div>
+                    <div class="center232">
+                        <div><a href="#">图书馆<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">本科教务管理系统<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">学生工作管理系统<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">课程中心<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">精品课程<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">信息门户<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp学习服务（研究生）</div>
+                    <div class="center232">
+                        <div><a href="#">图书馆<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">研究生一体化管理系统<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp反馈渠道</div>
+                    <div class="center232">
+                        <div><a href="#">校长信箱<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">举报投诉<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">信息公开<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">价格服务<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp生活服务</div>
+                    <div class="center232">
+                        <div><a href="#">校园卡服务<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">邮件系统<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">宿管服务<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">学生活动场地审批<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">学交通服务<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">学费收缴<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp合作交流</div>
+                    <div class="center232">
+                        <div><a href="#">出国成绩证明<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">留学项目<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp职业发展</div>
+                    <div class="center232">
+                        <div><a href="#">本科生就业指导<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">创业服务<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">研究生就业指导<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+                <div class="center23">
+                    <div class="center231">&nbsp&nbsp&nbsp毕业生专区</div>
+                    <div class="center232">
+                        <div><a href="#">研究生论文提交<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">本科生毕业离校<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">研究生毕业离校系统<i class="fa fa-paper-plane"></i></a></div>
+                        <div><a href="#">校友会<i class="fa fa-paper-plane"></i></a></div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="footer_front2">
+        <div class="footer_front21">
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >学校新闻</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >学校概况</a></div>
+                <div><a href="#">学校简章</a></div>
+                <div><a href="#">学校章程</a></div>
+                <div><a href="#">历史沿革</a></div>
+                <div><a href="#">院系设置</a></div>
+                <div><a href="#">机构设置</a></div>
+                <div><a href="#">现任领导</a></div>
+                <div><a href="#">历任领导</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >院系设置</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >教育教学</a></div>
+                <div><a href="#">本科生教育</a></div>
+                <div><a href="#">研究生教育</a></div>
+                <div><a href="#">国际生教育</a></div>
+                <div><a href="#">继续教育</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >招生就业</a></div>
+                <div><a href="#">本科生招生</a></div>
+                <div><a href="#">研究生招生</a></div>
+                <div><a href="#">留学生招生</a></div>
+                <div><a href="#">继续教育</a></div>
+                <div><a href="#">本科生就业</a></div>
+                <div><a href="#">研究生就业</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >师资队伍</a></div>
+                <div><a href="#">概况</a></div>
+                <div><a href="#">人才计划</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >人才招聘</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >学科科研</a></div>
+                <div><a href="#">学科建设</a></div>
+                <div><a href="#">科学研究</a></div>
+                <div><a href="#">学术期刊</a></div>
+                <div><a href="#">社会服务</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >合作交流</a></div>
+            </div>
+            <div class="footer_front22">
+                <div class="footer_front23"><a href="#" >走进华农</a></div>
+                <div><a href="#">校园风光</a></div>
+                <div><a href="#">校园生活</a></div>
+                <div><a href="#">实用信息</a></div>
+            </div>
+                
+        </div>
+    </div>
+   <footer>
+        <div>地址：湖北省武汉市洪山区狮子山街1号 邮编：430070 电话：027-87282027 传真：027-87384670</div>
+        <div>CopyRight © 华中农业大学版权所有</div> 
+        <div>                      
+            <a href="#">鄂ICP备13013419-1号 &nbsp;&nbsp;<img  src="./公安.png">鄂公网安备 42011102000808号</a>   
+        </div>
+    </footer> 
+</body>
+</html>
